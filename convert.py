@@ -29,9 +29,8 @@ def convert_temp(unit_in, unit_out, temp):
         return f"Invalid unit {unit_in}"
     if unit_out not in valid_list:
         return f"Invalid unit {unit_out}"
-    # Option 2: Do seperate conditionals, must use AND not OR
+    # Option 2: Do seperate conditionals, must use AND not
     # if unit_in != "c" and unit_in  != "f":
-    #     print(unit_in !="c" and unit_in !="f")
     #     return f"Invalid unit {unit_in}"
     # if unit_out != "c" and unit_out != "f":
     #     return f"Invalid unit {unit_out}"
